@@ -64,6 +64,8 @@ The fully `open-sourced ADBench <https://github.com/Minqi824/ADBench>`_ compares
 **For time-series outlier detection**, please use `TODS <https://github.com/datamllab/tods>`_.
 **For graph outlier detection**, please use `PyGOD <https://pygod.org/>`_.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DavidChoi76/pyod.git/HEAD)
+
 PyOD is the most comprehensive and scalable **Python library** for **detecting outlying objects** in
 multivariate data. This exciting yet challenging field is commonly referred as 
 `Outlier Detection <https://en.wikipedia.org/wiki/Anomaly_detection>`_
