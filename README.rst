@@ -55,7 +55,6 @@ Python Outlier Detection (PyOD)
    :target: https://github.com/Minqi824/ADBench
    :alt: Benchmark
 
-
 -----
 
 **News**: We just released a 45-page, the most comprehensive `anomaly detection benchmark paper <https://www.andrew.cmu.edu/user/yuezhao2/papers/22-neurips-adbench.pdf>`_.
@@ -64,8 +63,9 @@ The fully `open-sourced ADBench <https://github.com/Minqi824/ADBench>`_ compares
 **For time-series outlier detection**, please use `TODS <https://github.com/datamllab/tods>`_.
 **For graph outlier detection**, please use `PyGOD <https://pygod.org/>`_.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DavidChoi76/pyod.git/HEAD)
-
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/DavidChoi76/pyod.git/HEAD
+ 
 PyOD is the most comprehensive and scalable **Python library** for **detecting outlying objects** in
 multivariate data. This exciting yet challenging field is commonly referred as 
 `Outlier Detection <https://en.wikipedia.org/wiki/Anomaly_detection>`_
@@ -79,14 +79,12 @@ It is also well acknowledged by the machine learning community with various dedi
 `KDnuggets <https://www.kdnuggets.com/2019/02/outlier-detection-methods-cheat-sheet.html>`_, and
 `Towards Data Science <https://towardsdatascience.com/anomaly-detection-for-dummies-15f148e559c1>`_.
 
-
 **PyOD is featured for**:
 
 * **Unified APIs, detailed documentation, and interactive examples** across various algorithms.
 * **Advanced models**\, including **classical distance and density estimation**, **latest deep learning methods**, and **emerging algorithms like ECOD**.
 * **Optimized performance with JIT and parallelization** using `numba <https://github.com/numba/numba>`_ and `joblib <https://github.com/joblib/joblib>`_.
 * **Fast training & prediction with SUOD** [#Zhao2021SUOD]_.
-
 
 **Outlier Detection with 5 Lines of Code**\ :
 
